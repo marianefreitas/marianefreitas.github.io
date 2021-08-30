@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/form.css'>
+<!-- foi utilizado algumas fontes do google para melhor design -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>PandasCandy</title> <!--Colocar o NOME-->
+<!-- Camila Chang Peres, Gabriel Rocha-->
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Panda's Candy</h1>
+        <img id="logo"
+        src="./Imagens/cute-happy-panda-candy-flat-by-Vexels.png" alt="logo-panda">
+    <!-- Foram adicionados dois button, um para pesquisa e um para o icone de envio, no name do  -->
+        <label for="Buscar"></label>
+        <input id="pesquisa" type="search" placeholder="Pesquise aqui">
+        <button id="busca"><a href="#">Buscar</a></button>
+        <!-- &#128269; -->
+       <a id="carrinho" href="carrinho.html"><img src="Imagens/shopping-cart-icon-shopping-cart-icon-by_vexels.png" alt="carrinho" class="carrinho">
+       </header>
+       <nav >
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="qsomos.html" target="_self">Quem Somos</a></li>
+               <!-- menu dropdown aqui Gabriel Rocha-->
+                <div class="dropdown">
+                        <li><a href="produtos.html" target="_self">Produtos</a></li>
+                        <div class="dropdown-content">
+                            <li><a href="#">Bombons </a></li>
+                            <li><a href="#">Chocolates </a></li>
+                            <li><a href="#">Kits</a></li>
+                            <li><a href="#">Tabletes</a></li>
+                        </div>
+                </div>
+                 <!-- ########## fim menu dropdown ###########-->
+               <li><a href="contato.html">Contato</a></li>
+           </ul>
+       </nav>
+
+    <hr>
+    <main class="principal">
+        <h3>Novidades</h3>
+        <hr>
+        <section id="principal1">
+            
+            <figure class="produto">
+                <img  id="pacoca" src="./Imagens/novidades01.jpg">
+                <p id="pacocap">Paçoquita Chocolate com avelã <br><p id="preco">R$ 9,50</p>
+            </figure>
+            
+
+            <figure class="produto">
+                <img class="doces" src="./Imagens/novidades02.jpg">
+                <p>Lata balinha de coração<br>R$ 10,00</p>
+            </figure>
+            <figure class="produto">    
+                <img  class="doces" src="./Imagens/novidades03.jpg">
+                <p>Twix de Paçoca <br>R$ 2,20</p>
+            </figure>
+        </section><br>
+
+            <hr>
+            <h3>Ofertas</h3>
+            <hr>
+            
+        <section id="principal2">
+            <figure class="produto">
+                <img class="doces" src="https://cdn.dooca.store/239/products/jthymcfzghpooyql3u6e00qm2xxuxipy7fdi_620x620+fill_ffffff.jpg?v=1625355099">
+                <p class="precoantigo">R$32,00</p>
+                <p class="preconovo">R$27,00</p>
+            </figure>
+            <figure class="produto">
+                <img class="doces" src="https://cdn.dooca.store/239/products/esvcxffjkbnrak60hbehszocbsazjwmfn2xj_620x620+fill_ffffff.jpg?v=1623512287">
+                <p class="precoantigo">R$32,00</p>
+                <p class="preconovo">R$30,00</p>
+            </figure>
+            <figure class="produto">
+                <img class="doces" src="https://cdn.dooca.store/239/products/82ne20vpsjwakyzpbo9cbn5bunpqoqyuxq0a_1600x1600+fill_ffffff.jpg?v=1623520947">
+                <p class="precoantigo">R$35,00</p>
+                <p class="preconovo">R$25,00</p>
+            </figure>
+            </section>
+
+            <section class="banner">
+                <section id="bannersec">
+                    <div id="primeira"></div>
+                    <div id="segunda"></div>
+                    <div id="terceira"></div>
+                </section>
+                <section id="bannerinsta">
+                    <h3 style="color: black;">Acesse nosso INSTAGRAM</h3>
+                   <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img id="logo_insta" src="./Imagens/pngwing.com.png"> </a>
+                </section>
+        
+            </section>
+
+        <hr>
+        <h3 style="color: black">Mais Vendidos</h3>
+        <hr>
+        <section id="principal3">
+            <figure class="produto"><img class="doces" src="./Imagens/talento.jpg">
+                <p class="precoantigo">R$35,00</p>
+                <p class="preconovo">R$25,00</p></figure>
+            <figure class="produto"><img class="doces" src="./Imagens/twix.jpg">
+                <p class="precoantigo">R$35,00</p>
+                <p class="preconovo">R$25,00</p></figure>
+            <figure class="produto"><img class="doces" src="./Imagens/42912gg.jpg">
+                <p class="precoantigo">R$35,00</p>
+                <p class="preconovo">R$25,00</p></figure>            
+        </section>
+
+        <!-- <section id="form-cadastro-principal">
+            <section class="conteudo-cadastro">
+                <h2>Faça seu cadastro!</h2>
+                <section id="formulario-cadastro">
+                    <form id="form-cadastro-principal">
+                        <p id="texto-cadastro">Faça seu cadastro e receba as melhores ofertas no seu e-mail!
+                            <br>
+                        </p>
+                        <section class="input-form-cad">
+                            <input id="name" type="text" placeholder="Nome completo">
+                        </section>
+                        <section class="input-form-cad">
+                            <input id="email" type="email" placeholder="Email">
+                        </section>
+                        <button id="button-form">Enviar</button>
+                    </section>
+                </section>
+            </section>     -->
+    </main>
+
+    <section>
+        <a href="contato.html" target="_blank"><img src="./Imagens/Fale Conosco.png" alt="fale Conosco" class="faleconosco"></a>
+    </section>
+
+    <footer>
+        <hr>
+        <section class="images">
+            <a href="https://www.facebook.com/SoulCodeAcademy" target="_blank"><img src="./Imagens/Facebook_icon-icons.com_55914.png" alt="facebooklogo" class="redef"></a> 
+            <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="./Imagens/Instagram_icon-icons.com_55882.png" alt="instagramlogo" class="redei"></a>
+            <a href="https://www.linkedin.com/company/soulcodeacademy/?originalSubdomain=br" target="_blank"><img src="./Imagens/LinkedIn_icon-icons.com_55877.png" alt="linkedinlogo" class="redel"></a> 
+        </section>
+        &copy; 2021 | Projeto de 
+        <a href="https://www.linkedin.com/in/camila-chang-peres-7010105a/" target="_blank">Camila Chang |</a> 
+        <a href="https://www.linkedin.com/in/gabriel-rocha-santana-a753ab85/" target="_blank">Gabriel Rocha |</a> 
+        <a href="https://www.linkedin.com/in/marianedefreitas/" target="_blank">Mariane de Freitas |</a>
+        <a href="https://www.linkedin.com/in/wanessa-lanne-3994a3207/" target="_blank">Wanessa Lanne |</a> 
+        <a href="https://www.linkedin.com/in/yago-mathias-b20417217/" target="_blank">Yago Mathias |</a>
+    </footer>
+
+</body>
+<!-- Mariane de Freitas, Wanessa Lanne, Yago Mathias-->
+</html>

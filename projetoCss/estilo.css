@@ -1,0 +1,501 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ban{
+    height: 300px;
+    width: 500px;
+    border-width: 1px;
+    border: solid rgb(187, 178, 164);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+
+}
+
+.banner{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 50px;
+    background-color:#71bfe2 ;
+    height: 400px;
+    box-shadow: powderblue;
+}
+
+#bannerinsta{
+    margin: 0 auto;
+}
+ 
+#bannersec{
+    display: grid;
+    grid-template-columns: 33fr 33fr 33fr;
+    gap: 3em; 
+    width: 100%;
+    height: 200px;   
+}
+
+#busca{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    border: none;
+    padding: 5px;
+    background-color:  #71b3a7;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.button-form {
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    color: #71b3a7;
+    margin-left: 11px;
+    color: white
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+    width: 100%;
+    height: 200px;
+}
+
+.carrinho{
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    border: none;
+    height: 60px;      
+}
+
+
+#conteudo-form {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin: 15px 0 0;
+    text-align: center;
+    display: flex;
+}
+
+.doces{
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* ##################################### gabriel Menu dropdown codigo ################*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:35px;
+    background-color: #ffcdc3;
+    border-radius: 5%;
+    min-width: 70px;/* quadrado em volta do menu dropdown*/
+    z-index: 1;
+    
+}
+.dropdown-content a:hover{ /* espaco dentro do link dropdown*/
+    width: 75%;    
+    opacity: 1;
+    box-shadow: 0 0 20px 10px #c3f8ff;/* dando sombra extra pro item dentro  a*/
+}
+.dropdown-content li{ /* espaco dentro do link dropdown*/
+      width: 85%;    
+      opacity: 1;
+}
+.dropdown-content li a:hover{ /* espaco dentro do link dropdown*/
+    background-color: #c3f8ff;;
+    opacity: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 0.9;
+}
+/* ##################################Fim Menu Dropdown #####################*/
+.faleconosco{
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #c1e7f8;
+
+}
+.form {
+    position: relative;
+    bottom: 10px;
+    left: 40%;
+    background: #fff;
+    width: 250px;
+    padding: 5px;
+    border-width: 2px;
+    box-shadow: 10px 10px 13px #00000062;
+    border-radius: 16px;
+    text-align: center;
+    margin: 5px
+}
+
+.foto_loja{
+    width: 350px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#foto_lojdir{
+    position: absolute;
+    left: 950px;
+    top: 350px;
+
+
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    bottom: 0px;
+    background: linear-gradient(white 50%, #71bfe2 )
+}
+
+footer a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+}
+
+footer a:hover {
+    box-shadow: 0 0 20px 10px #ece074;
+    border-radius: 3px;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #71b3a7;
+    text-shadow: 
+    -2px -1px 10px  white;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    color: #71b3a7;
+}
+
+h4{
+    font-family: 'Pacifico', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#71bfe2, white);
+}
+
+header button a{
+  text-decoration: none;
+  color: white;
+}
+
+#img-contato{
+    position: fixed;
+    right: 100px;
+    top: 500px;  
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+/* input para o button da pesquisa */
+label{
+    height: 10px;
+}
+
+
+li{
+    /* padding: 5px; */
+    margin: 5px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+#logo{
+    width: 15vw;
+    height: 30vh;
+    position: absolute;
+    left: 150px;
+    top: 15px;
+}
+
+#logo_insta{ 
+    width: 100px;
+    margin-left: 150px;
+}  
+
+main button {
+    max-width: 150px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
+main button, .button-form:hover{
+    background-color: #71b3a7;
+    color: white;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+main input{
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 45px;
+    position: sticky;
+    top: 4px;
+    margin: 0 auto;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 0px 0px 1px;
+    /* border: solid 1px; */
+}
+
+nav a{
+    text-decoration: none;
+    color: #71b3a7;
+}
+
+nav a:hover {
+    box-shadow: 0 0 20px 10px #ece074;
+    border-radius: 3px;
+}
+
+.maincarrinho{
+    display: flex;
+    justify-content: center; 
+}
+
+#pacoca{
+    width: 90%;
+    height: 180px;
+    position: relative;
+    top: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#pacocap{
+    margin: 10px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    color: #0da6cc;
+}
+
+.pag-carrinho{
+    
+    height: 400px;
+    width: 80vw;
+    border: solid rgb(187, 178, 164);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+}
+
+#panda{
+    position: absolute;
+    left: 0px;
+    bottom: -9vh;
+    height: 300px;
+}
+
+#pesquisa{
+    position: absolute;
+    right: 83px;
+    top: 150px;
+    height: 24px;
+}
+
+.precoantigo{
+    text-decoration: line-through;
+    font-size: medium;
+    color: red;
+    text-align: center;
+}
+
+.preconovo{
+    font-size: medium;
+    text-align: center;
+}
+
+
+#primeira {
+    background-image: url(./Imagens/doce01.png);
+    background-size:  160px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;  
+    align-content: center;
+    width: 100%;
+    height: 1800px;
+    background-image: linear-gradient(to top, #71bfe2, #fdfdfd);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(88, 88, 88);
+}
+
+
+#principal1, #principal2, #principal3 , #principal4{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    
+    
+    /* background-image: linear-gradient( #71bfe2, white) */
+    
+}
+
+#principal1 , #principal2 , #principal3 , #principal4{
+    text-align: center;
+}
+/* Gabriel Rocha - animacao */
+.produto img:hover{
+       transform: scale(1.2);
+    
+}
+/* Fim Animacao imagem */
+.promo{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.produto{
+    /* border-width: 1px;
+    border: solid rgb(187, 178, 164); */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(220, 231, 233);
+}
+
+
+/* Mudar a fonte-family e fonte size do texto quemsomos */
+#quemsomos{
+    width: 50%;
+
+    text-indent: 10px;
+    line-height: 130%;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#quemsomos h4{
+    margin-top: 10px;
+}
+
+#quemsomos p{
+    padding-top: 5px;
+}
+
+.quemsomos_historia section{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* as imagens se encontram na pasta do arquivo */
+.redei, .redef, .redel{
+    height: 50px;
+    width: 100%;
+}
+#subtitulo {
+    text-align: center;
+    color: #71b3a7;
+    font-size: x-large;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100px;
+   
+}
+
+
+#segunda {
+    background-image: url(./Imagens/doce02.png);
+    background-size:  160px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#terceira {
+    background-image: url(./Imagens/doce03.png);
+    background-size:  160px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}  
+
+textarea {
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    resize: none;
+    margin-top: 0px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px; */
+}
+
+/* utilizado para uma figura se sobressair a outra */
+
+#zindex{
+    position: absolute;
+    left: 700px;
+    bottom: 150px;
+    z-index: 2;
+}
+
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+<!-- foi utilizado algumas fontes do google para melhor design -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Produtos</title>
+<!-- Camila Chang Peres, Gabriel Rocha-->
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Panda's Candy</h1>
+        <img id="logo"
+        src="./Imagens/cute-happy-panda-candy-flat-by-Vexels.png" alt="logo-panda">
+    <!-- Foram adicionados dois button, um para pesquisa e um para o icone de envio, no name do  -->
+        <label for="Buscar"></label>
+        <input id="pesquisa" type="search" placeholder="Pesquise aqui">
+        <button id="busca">Buscar</button>
+        <a href="carrinho.html"><img src="Imagens/shopping-cart-icon-shopping-cart-icon-by_vexels.png" alt="carrinho" class="carrinho"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="qsomos.html" target="_self">Quem Somos</a></li>
+                           <!-- menu dropdown aqui Gabriel Rocha-->
+                           <div class="dropdown">
+                            <li><a href="produtos.html" target="_self">Produtos</a></li>
+                            <div class="dropdown-content">
+                                <li><a href="#">Bombons </a></li>
+                                <li><a href="#">Chocolates </a></li>
+                                <li><a href="#">Kits</a></li>
+                                <li><a href="#">Tabletes</a></li>
+                            </div>
+                    </div>
+               <!-- ########## fim menu dropdown ###########-->
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+
+    <main class="principal">
+
+        <section class="sec">
+
+            <section class="ban">
+                <img class="promo" src="./Imagens/promocao3.png" alt="promocao">
+            </section>
+
+        </section>
+
+
+        <section id="principal1">
+            <figure class="produto">
+                <img  class="doces" src="./imagens/bala01.jpg">
+                   <p>Balinhas Azedinhas 500g<br>R$ 8,00</p>
+            </figure>
+
+            <figure class="produto">
+                <img class="doces" src="./Imagens/bala02.jpg">
+                <p>Bala Chiclete Bolette 600g <br>R$ 8,50</p>
+            </figure>
+
+            <figure class="produto">
+                
+                <img class="doces" src="./Imagens/bala03.jpg">
+                <p>Bala 7 Belo 600g<br>R$ 8,80</p>
+            </figure>
+
+            <figure class="produto">
+               
+                <img class="doces" src="./Imagens/bala04.jpg">
+                <p>Bala de hortelã 600g <br>R$ 8,10</p>
+            </figure>
+
+        </section>
+
+        <section id="principal2">
+            <figure class="produto">
+                
+                <img class="doces" src="./Imagens/chiclete01.jpg">
+                <p>Chiclete Bubbaloo de Morango <br>R$ 11,20</p>
+            </figure>
+            <figure class="produto">
+               
+                <img class="doces" src="./Imagens/chiclete02.jpg">
+                <p> Chiclete Flics de Tutti-Frutti <br>R$ 6,00</p>
+            </figure>
+            <figure class="produto">
+                
+                <img class="doces" src="./Imagens/chiclete03.jpg">
+                <p>Chiclete Poosh de Tutti-Frutti <br>R$ 4,75</p>
+            </figure>
+            <figure class="produto">
+                
+                <img class="doces" src="./Imagens/chiclete04.jpg">
+                <p>Chiclets Adams Tutti-Frutti <br>R$ 26,10</p>
+            </figure>
+        </section>
+        
+
+        <section id="principal3">
+            <figure class="produto">
+                <img class="doces" src="./Imagens/goma01.jpg">
+                <p>Minhocas Cítricas 500g <br>R$ 19,60</p>
+            </figure>
+            <figure class="produto">
+                
+                <img class="doces" src="./Imagens/goma02.jpg">
+                <p> Jujuba Dentaduras 500g <br>R$ 19,60</p>
+            </figure>
+            <figure class="produto">
+               
+                <img class="doces" src="./Imagens/goma03.jpg">
+                <p>Jujuba Beijos 500g<br>R$ 19,60</p>
+            </figure>
+            <figure class="produto">
+              
+                <img class="doces" src="./Imagens/goma04.jpg">
+                <p>Jujuba Amoras 500g <br>R$ 19,60</p>
+            </figure>
+        </section>
+
+        <section id="principal4">
+            <figure class="produto">
+                <img class="doces" src="./Imagens/pirulito01.jpg">
+                <p>Pirulito Poosh Poop <br>R$ 10,60</p>
+            </figure>
+            <figure class="produto">
+                
+                <img class="doces" src="./Imagens/pirulito02.jpg">
+                <p> Pirulito Dipnlink <br>R$ 10,60</p>
+            </figure>
+            <figure class="produto">
+               
+                <img class="doces" src="./Imagens/pirulito03.jpg">
+                <p>Pirulito Psicodélico <br>R$ 12,60</p>
+            </figure>
+            <figure class="produto">
+              
+                <img class="doces" src="./Imagens/pirulito04.jpg">
+                <p>Pirulito Pop Kiss<br>R$ 8,60</p>
+            </figure>
+        </section>
+    </main>
+
+    <section>
+        <a href="contato.html" target="_blank"><img src="./Imagens/Fale Conosco.png" alt="fale Conosco" class="faleconosco"></a>
+    </section>
+
+    <footer>
+        <hr>
+        <section class="images">
+            <a href="https://www.facebook.com/SoulCodeAcademy" target="_blank"><img src="./Imagens/Facebook_icon-icons.com_55914.png" alt="facebooklogo" class="redef"></a> 
+            <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="./Imagens/Instagram_icon-icons.com_55882.png" alt="instagramlogo" class="redei"></a>
+            <a href="https://www.linkedin.com/company/soulcodeacademy/?originalSubdomain=br" target="_blank"><img src="./Imagens/LinkedIn_icon-icons.com_55877.png" alt="linkedinlogo" class="redel"></a> 
+        </section>
+        &copy; 2021 | Projeto de 
+        <a href="https://www.linkedin.com/in/camila-chang-peres-7010105a/" target="_blank">Camila Chang |</a> 
+        <a href="https://www.linkedin.com/in/gabriel-rocha-santana-a753ab85/">Gabriel Rocha |</a> 
+        <a href="https://www.linkedin.com/in/marianedefreitas/">Mariane de Freitas</a>| 
+        <a href="https://www.linkedin.com/in/wanessa-lanne-3994a3207/">Wanessa Lanne |</a> 
+        <a href="https://www.linkedin.com/in/yago-mathias-b20417217/">Yago Mathias |</a>
+    </footer>
+
+</body>
+<!-- Mariane de Freitas, Wanessa Lanne, Yago Mathias-->
+</html>
