@@ -1,0 +1,31 @@
+/* Elementos */
+
+/* ID */
+
+
+/* classes */
+
+.anuncio {
+    font-size: 25px;
+    margin: 20px 0px 20px 0px;
+    color : #066ef6;
+}
+.produtos{
+    /* padding:10px; */
+    overflow: hidden;
+}
+.produtos p{
+    color    : #066ef6;
+}
+
+.produtos img {
+    /* box-shadow: 2px 2px 10px 2px #066ef6; */
+    border-radius     : 20px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition        : transform .5s ease;
+}
+
+.produtos:hover img {
+    -webkit-transform: scale(1.1);
+    transform        : scale(1.1);
+}

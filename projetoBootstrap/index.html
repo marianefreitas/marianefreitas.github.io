@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+link topo página -> linha 134
+Estilizar o rodapé usando exclusivamente css -> linhas 144
+menu drop-down -> linha 41
+nav-bar responsivo -> linha 22
+Bootstrap estilo no botão => linha 134 -->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="libs/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/padrao.css">
+<link rel="stylesheet" href="css/index.css">
+
+<title>Home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="imagens/logo.png "
+                    class=" d-inline-block align-top "></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"
+                aria-controls="Navbar" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="produtos.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Produtos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="fornos.html">Fornos</a>
+                            <a class="dropdown-item" href="adegas.html">Adegas</a>
+                            <a class="dropdown-item" href="microondas.html">Microondas</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <div id="topo" class="my-2 my-lg-0">
+                    <a href="https://api.whatsapp.com/send?phone=SeuNúmero" target="_blank">
+                        <img src="imagens/whatsapp.png"></a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+
+        <div class="col col-12 d-flex justify-content-center anuncio">
+            <p class="display-4">Confira as melhores ofertas</p>
+        </div>
+
+        <div id="banner" class="col col-12">
+            <!-- ADICIONANDO INDICADORES-->
+
+            <div id="indicadores" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carrosel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carrosel" data-slide-to="1"></li>
+                    <li data-target="#carrosel" data-slide-to="2"></li>
+                    <li data-target="#carrosel" data-slide-to="3"></li>
+                    <li data-target="#carrosel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- ADICIONANDO AS IMAGENS-->
+
+                <div id="carrosel" class="carousel slide" data-ride="carousel" data-interval="4000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="imagens/promo1.jpg" alt="Primeiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagens/promo2.jpg" alt="Segundo Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagens/promo3.jpg" alt="Terceiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagens/promo4.jpg" alt="Quarto Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagens/promo5.jpg" alt="Quinto Slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ADICIONANDO CONTROLES DE ANTES E DEPOIS-->
+            <a class="carousel-control-prev" href="#carrosel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carrosel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <div class="col col-12 d-flex justify-content-center anuncio">
+            <p class="display-4">O que você precisa tem aqui</p>
+        </div>
+        <div class="d-flex">
+           <div class="col col-3"><a href="adegas.html"><img class="img-fluid" src="imagens/indexcard1.jpg"></a></div>
+            <div class="col col-3"><a href="fornos.html"><img class="img-fluid" src="imagens/indexcard2.jpg"></a></div>
+            <div class="col col-3"><a href="adegas.html"><img class="img-fluid" src="imagens/indexcard3.jpg"></a></div>
+            <div class="col col-3"><a href="microondas.html"><img class="img-fluid" src="imagens/indexcard4.jpg"></a></div>
+        </div>
+        <div class="col col-12 d-flex justify-content-center anuncio">
+            <p class="display-4">Não perca essa oportunidade</p>
+        </div>
+
+        <div id="banner3" class="col col-12">
+            <a href="cadastro.html"><img class="img-fluid" src="imagens/listacasamento.png"
+                    alt="imagem dois pares de mãos formando um coração"></a>
+        </div>
+
+
+        <a id="smooth" href="#topo"><button id="botao" class="btn btn-lg btn-primary"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                </svg></button></a>
+
+
+    </main>
+    <footer>
+        <div class="rodape">
+            <div>
+                <p>Formas de Pagamento:</p>
+                <img src="imagens/bandeiras_cartoes.png" alt="bandeiras cartões" style="width: 25vw;">
+            </div>
+        </div>
+        <div id="redes" class="rodape">
+            <a href="https://www.facebook.com/" target="_blank"><img src="imagens/facebook.png" alt="iconefacebook"></a>
+            <a href="https://twitter.com/" target="_blank"> <img src="imagens/twitter.png" alt="iconetwitter"></a>
+            <a href="https://youtube.com" target="_blank"><img src="imagens/youtube.png" alt="iconeYoutube"></a>
+        </div>
+        <div class="rodape">
+            <p> ATENDIMENTO<br>
+                contato@sellelectron.com.br<br>
+                Seg. a Sex das 10:00 às 20:00hrs<br>
+                Sábados 10:00 às 18:00hrs<br>
+                Rua: Boa Compra, 583 - Venda Bem<br>
+                São Paulo - SP<br>
+            </p>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <script src="libs/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="libs/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

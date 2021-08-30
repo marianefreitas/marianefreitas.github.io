@@ -1,0 +1,51 @@
+
+
+
+/*Estilizar o rodapé usando exclusivamente css -> linhas 11 e 32 */
+
+/* Elementos */
+body {
+        background-color: #cddff0;
+}
+
+footer {
+    padding         : 10px;
+    font-size       : small;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    background-color: #066ef6;
+
+}
+
+/* Classes */
+.bg-light {
+    background-color: #066ef6 !important;
+    color           : #ECF4FB;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 700;
+    color      : #ecf4fb;
+}
+
+.rodape {
+    display       : flex;
+    flex-direction: row;
+    white-space   : normal;
+    font-variant  : small-caps;
+    font-weight   : 500;
+    color         : #f8f9fa;
+}
+
+/* ID */
+#logo {
+    height      : 100px;
+    margin-right: 10px;
+}
+
+#redes {
+    filter   : invert();
+    display  : flex;
+    flex-wrap: nowrap;
+}

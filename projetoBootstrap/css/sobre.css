@@ -1,0 +1,19 @@
+aside div {
+    padding: 2px;
+    color: #f8f9fa;
+    border-radius: 15px;
+    margin       : 10px;
+    border: solid 1px #066ef6;
+    background-color: #066ef6;
+    /* background-color: hsla(214, 51%, 36%, 0.8); */
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Classes */
+.fontequemsomos{
+    color:#066ef6 ;
+}

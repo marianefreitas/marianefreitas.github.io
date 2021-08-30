@@ -1,0 +1,17 @@
+form{
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #066ef6;
+    /* background-color:  hsla(214, 51%, 36%, 0.8); */
+    padding: 20px;
+    color: aliceblue;
+}
+
+/* Classes */
+.btn{
+    background-color: #d0e5fa;
+    color: #066ef6;
+}
+.display-4{
+    color: #066ef6;
+}
