@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFANTIL</title>
+    <style>
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #D6C1A0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 115px;
+    /* text-transform: uppercase; */
+}
+
+header {
+    background-color: #1A2B50;
+}
+
+ul, li { 
+    display: flex;
+    margin: 1em;    
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #1A2B50;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+h1.header-cartaz {
+    text-align: center;
+    color: #1A2B50;
+}
+
+h3, h1, p, a, div {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer {
+    height: 20vh;
+    background-color: #1A2B50;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu-links {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.posters {
+    display: flex;
+    justify-content: space-around;  
+    margin-bottom: 5em; 
+    margin-top: 0.5em; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px;
+    background-color: #346190;
+    border-radius: 20px;
+}
+
+.dropdown-content:hover {
+    border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            background-color: #7598A0;
+        }
+
+        section {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #d6c1a0;
+        }
+
+        .card {
+            border: 3px solid #7598A0;
+            display: flex;
+            text-align: justify;
+
+        }
+
+        .card>div {
+            padding: 0 40px 0 20px;
+
+        }
+
+        .card h3,
+        .card h4 {
+            margin: 10px 0;
+        }
+
+        .card img {
+            width: 300px;
+            height: auto;
+            margin: 10px 0 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container nav-container">
+            <a class="logo" href="index.html"><img src="logo_size-removebg-preview.png" alt="Cine Soul Code"></a>
+            <ul>
+                <li><a class="menu-links" href="http://www.soulcodeacademy.org" target="_blank">Ingresso</a></li>
+                <li class="dropdown"><a class="dropdown menu-links" href="#">Categorias</a>
+                    <ul class="dropdown-content">
+                        <li><a class="menu-links drop" href="acao1.html">Ação</a></li>
+                        <li><a class="menu-links drop" href="terror.html">Terror</a></li>
+                        <li><a class="menu-links drop" href="infantil.html">Infantil</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu-links" href="Contato-cinema.html">Contato</a></li>
+            </ul>
+            <div class="login-container">
+                <li><a class="menu-links login" href="#">Login</a></li>
+                <li><a class="menu-links login" href="cadastro-cinema.html">Cadastro</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article class='card'>
+                <img src="luca.jpg" alt="banner do filme luca">
+                <div>
+                    <h3>Luca</h3>
+                    <table>
+                        <tr>
+                            <td colspan="2">18 de junho de 2021 No cinema / 1h 36min / Animação , Família</td>
+                        </tr>
+                        <tr>
+                            <td>Direção: </td>
+                            <td>Enrico Casarosa</td>
+                        </tr>
+                        <tr>
+                            <td>Roteiro: </td>
+                            <td>Jesse Andrews, Mike Jones</td>
+                        </tr>
+                        <tr>
+                            <td>Elenco:: </td>
+                            <td>Jacob Tremblay, Jack Dylan Grazer, Emma Berman
+                            </td>
+                        </tr>
+                    </table>
+                    <h4>Sinopse</h4>
+                    <p>Em Luca, acompanhamos uma história de amadurecimento sobre um jovem que vive um verão
+                        inesquecível
+                        repleto de sorvetes, massas e passeios intermináveis de scooter. Luca compartilha essas
+                        aventuras com
+                        seu novo melhor amigo, mas toda a diversão é ameaçada por um segredo profundamente bem guardado:
+                        eles
+                        são monstros marinhos de outro mundo, logo abaixo da superfície da água.</p>
+                </div>
+            </article>
+            <article class='card'>
+                <img src="raya.jpg" alt="banner do filme raya e o ultimo dragão">
+                <div>
+                    <h3>Raya e o último dragão</h3>
+                    <table>
+                        <tr>
+                            <td colspan="2">04 de março de 2021 No cinema / 1h 47min / Animação , Fantasia e Aventura
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Direção: </td>
+                            <td> Don Hall, Carlos Lopez Estrada, Paul Briggs
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Roteiro: </td>
+                            <td>Adele Lim, Qui Nguyen
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Elenco:: </td>
+                            <td>Kelly Marie Tran, Awkwafina, Gemma Chan</td>
+                        </tr>
+                    </table>
+                    <h4>Sinopse</h4>
+                    <p>Em Raya e o Último Dragão, Kumandra é um reino habitado por uma vasta e antiga civilização
+                        conhecida por
+                        ter passado gerações venerado os dragões, seus poderes e sua sabedoria. Porém, com as criaturas
+                        desaparecidas, a terra é tomada por uma força obscura. Quando uma guerreira chamada Raya,
+                        convencida de
+                        que a espécie não foi extinta, decide sair em busca do último dragão, sua aventura pode mudar o
+                        curso de
+                        todo o mundo.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-div">© André Miranda, Noemi Cunha, Mariane Freitas, Gustavo Antonelli, Weslley Brilhante
+        </div>
+        <div class="footer-div">
+            <a href="#" class="menu-links">Prime Video</a>
+            <a href="#" class="menu-links">Disney</a>
+        </div>
+    </footer>
+</body>
+
+</html>
