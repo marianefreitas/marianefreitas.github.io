@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/CraftItsCheaperThanTherapy.svg" alt="Logo" id="logo">
+    </header>
+
+    <main class="selecao-de-itens">
+        <section class="itens">
+            <h1 class="titulo">Selecione um item</h1>
+            <ul class="lista-de-itens">
+                <li class="item selecionado" id="jaleco" data-name="Jaleco" data-description="Jaleco personalizado com patchaplique.">
+                    <img src="./src/imagens/jaleco.jpg" alt="Jaleco personalizado" >
+                </li>
+                <li class="item" id="avental" data-name="Avental" data-description="Avental personalizado.">
+                    <img src="./src/imagens/avental.jpg" alt="Avental personalizado">
+                </li>
+                <li class="item" id="mochila" data-name="Mochila" data-description="Mochila personalizado com bordado manual de paetes.">
+                    <img src="./src/imagens/mochila.jpg" alt="Mochila personalizado">
+                </li>
+                <li class="item" id="porta_lixo" data-name="Porta Lixo" data-description="Lixo de cambio automotivo com porta treco.">
+                    <img src="./src/imagens/porta_lixo.jpg" alt="Porta lixo automotivo">
+                </li>
+                <li class="item" id="porta_caderno" data-name="Capa de caderno" data-description="Capa de caderno personalizado com bordado manual de paetes.">
+                    <img src="./src/imagens/porta_caderno.jpg" alt="Porta caderno personalizado">
+                </li>
+                <li class="item" id="estojo_sapatilha" data-name="Estojo" data-description="Estojo em formato de sapatilha.">
+                    <img src="./src/imagens/estojo_sapatilha.jpg" alt="Estojo sapatilha">
+                </li>
+                <li class="item" id="porta_sapatilha" data-name="Porta sapatilha" data-description="Porta sapatilha com visor em vinil transparente.">
+                    <img src="./src/imagens/porta_sapatilha.jpg" alt="Porta sapatilha" >
+                </li>
+                <li class="item" id="porta_garrafa" data-name="Porta garrafa" data-description="Porta garrafa de água personalizada.">
+                    <img src="./src/imagens/porta_garrafa.jpg" alt="Porta garrafa agua">
+                </li>
+
+            </ul>
+        </section>
+        <section class="item-selecionado">
+            <img class="item-grande" src="./src/imagens/jaleco.png" alt="">
+
+            <div class="informacoes-item">
+                <h2 class="nome-item" id="nome-item">Jaleco</h2>
+                <p id="descricao-item" class="descricao-item">Jaleco personalizado com patchaplique. </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
